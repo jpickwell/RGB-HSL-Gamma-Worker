@@ -34,6 +34,7 @@ Version 1.1.2
 
 Version 1.1.1
 - Fixed Reset Button behaviour
+
 -------------------------------------------------
 
 Thanks to:
