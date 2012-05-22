@@ -1,15 +1,12 @@
-RGB-HSL-Gamma Worker
-====================
+# RGB-HSL-Gamma Worker
 
 Use this program to make generating themes for Winamp 3 skins easier.
 
-Coded By
---------
+## Coded By
   * Original VB6 version coded by [R. Peter Clark](mailto:mail@rpeterclark.com) (http://www.rpeterclark.com).
   * C# port coded by [Jordan Pickwell](mailto:skoobiedu@gmail.com).
 
-History
--------
+## History
 
 ### Version 1.5 ###
   * Ported to C# 4.0 and WinForms
@@ -42,8 +39,7 @@ History
 ### Version 1.1.1 ###
   * Fixed 'Reset' button behaviour
 
-Thanks To
----------
+## Thanks To
   * Thomas Kabir, for his
     [PNG routines](http://www.Planet-Source-Code.com/vb/scripts/ShowCode.asp?txtCodeId=29135&lngWId=1).
   * David Serrano (SOOPRcow), for his help with understanding the Winamp 3
