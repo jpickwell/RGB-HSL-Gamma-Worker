@@ -1021,3 +1021,7 @@ End Function
 Public Property Get Width() As Long
     Width = MyHdr.Width
 End Property
+
+Private Sub Class_Terminate()
+
+End Sub

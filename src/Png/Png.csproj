@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A7C3CF7-6526-4C2A-923D-84F326DA0336}</ProjectGuid>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Rpc.Png</AssemblyName>
+    <RootNamespace>Rpc.Png</RootNamespace>
+    <OutputType>Library</OutputType>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <WarningLevel>4</WarningLevel>
+    <ErrorReport>prompt</ErrorReport>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>..\..\bin\Debug\ia64\</OutputPath>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>..\..\bin\Debug\x64\</OutputPath>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\..\bin\Debug\x86\</OutputPath>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DocumentationFile>..\..\bin\Release\Rpc.Png.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
+    <Optimize>true</Optimize>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <OutputPath>..\..\bin\Release\ia64\</OutputPath>
+    <DocumentationFile>..\..\bin\Release\ia64\Rpc.Png.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>..\..\bin\Release\x64\</OutputPath>
+    <DocumentationFile>..\..\bin\Release\x64\Rpc.Png.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\..\bin\Release\x86\</OutputPath>
+    <DocumentationFile>..\..\bin\Release\x86\Rpc.Png.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>png.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chunk.cs" />
+    <Compile Include="ColorType.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="png.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
